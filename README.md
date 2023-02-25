@@ -5,6 +5,8 @@ List fonts available in illustrator with arbitrary strings
 
 ## 使い方
 
+print_font_list.jsをダウンロードしたら、4行目に、見比べたい文字列に置き換えます
+
 イラストレーターを開いて、print_font_list.jsをイラストレーターの上にドロップします
 
 使用可能なフォントの一覧を新しいファイルに生成します
