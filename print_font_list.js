@@ -1,7 +1,7 @@
 // created by fuyuton
 // 
 
-var txt = "Œ©”ä‚×‚½‚¢•¶š—ñ‚ğ‚±‚±‚É‘‚­"
+var txt = "è¦‹æ¯”ã¹ãŸã„æ–‡å­—åˆ—ã‚’ã“ã“ã«æ›¸ã"
 
 
 var edgeSpacing = 10;
@@ -22,7 +22,7 @@ for(var i=0; i<iCount; i++) {
 	sFontNames = sFontName + textFonts[i].style;
 	var textRef = docRef.textFrames.add();
 	textRef.textRange.characterAttributes.size = 10;
-	textRef.contents = i + sFontNames + txt; // ‚±‚±‚Å”Ô†‚ÆƒtƒHƒ“ƒg–¼‚Æ•¶š—ñ‚ğ“ü‚ê‚é
+	textRef.contents = i + sFontNames + txt; // ã“ã“ã§ç•ªå·ã¨ãƒ•ã‚©ãƒ³ãƒˆåã¨æ–‡å­—åˆ—ã‚’å…¥ã‚Œã‚‹
 	textRef.top = y;
 	textRef.left = x;
 	if ((x + textRef.width)> docRef.width){

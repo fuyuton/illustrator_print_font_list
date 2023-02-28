@@ -1,9 +1,9 @@
 // created by fuyuton
 // 
 
-const lst = [499, 676, 686]; //‚±‚Ì[]‚Ì’†‚ÉAprint_font_list.js‚Åo‚µ‚½ˆê——‚Ì”Žš‚ð","‚Å‹æØ‚Á‚Ä‘‚­
-const txt = "‚±‚±‚É”äŠr‚µ‚½‚¢•¶Žš—ñ‚ð‘‚­"; // ‚±‚Ì""‚ÌŠÔ‚É•\Ž¦‚µ‚Ä”äŠr‚µ‚½‚¢•¶Žš—ñ‚ð‘‚­
-const fontSize = 20; // ‚±‚±‚ÉƒtƒHƒ“ƒgƒTƒCƒY‚ð‘‚­
+const lst = [499, 676, 686]; //ã“ã®[]ã®ä¸­ã«ã€print_font_list.jsã§å‡ºã—ãŸä¸€è¦§ã®æ•°å­—ã‚’","ã§åŒºåˆ‡ã£ã¦æ›¸ã
+const txt = "ã“ã“ã«æ¯”è¼ƒã—ãŸã„æ–‡å­—åˆ—ã‚’æ›¸ã"; // ã“ã®""ã®é–“ã«è¡¨ç¤ºã—ã¦æ¯”è¼ƒã—ãŸã„æ–‡å­—åˆ—ã‚’æ›¸ã
+const fontSize = 20; // ã“ã“ã«ãƒ•ã‚©ãƒ³ãƒˆã‚µã‚¤ã‚ºã‚’æ›¸ã
 
 
 const lstLength = lst.length;
@@ -41,7 +41,7 @@ for(var i=0; i<iCount; i++) {
 	sFontNames = sFontName + textFonts[i].style;
 	var textRef = docRef.textFrames.add();
 	textRef.textRange.characterAttributes.size = fontSize;
-	textRef.contents = txt + i + sFontNames; // ‚±‚±‚Å”Ô†‚ÆƒtƒHƒ“ƒg–¼‚Æ•¶Žš—ñ‚ð“ü‚ê‚é
+	textRef.contents = txt + i + sFontNames; // ã“ã“ã§ç•ªå·ã¨ãƒ•ã‚©ãƒ³ãƒˆåã¨æ–‡å­—åˆ—ã‚’å…¥ã‚Œã‚‹
 	textRef.top = y;
 	textRef.left = x;
 	if ((x + textRef.width)> docRef.width){
